@@ -1,0 +1,80 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+table, th, td {
+  border: 1px solid;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.form{
+  background-color: rgb(228, 228, 228);
+  max-width: 400px;
+  padding: 15px;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 2rem auto;
+}
+
+.form h1{
+  color: rgb(0, 128, 0);
+}
+
+.name-deadline{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  margin: 12px 0;
+}
+
+.task{
+  margin: 10px 0 0 0;
+}
+
+.name-deadline input{
+  border-radius:  10px;
+  padding: 5px;
+  border: none;
+  outline: none;
+  width: 180px;
+}
+
+.task textarea{
+  width: 100%;
+  border-radius:  10px;
+  padding: 10px 0 0px 5px;
+  border: none;
+  outline: none;
+}
+
+.buttons{
+  margin-top: 15px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.buttons button{
+  margin: 0 8px;
+  background-color:rgb(16, 117, 16);
+  border: none;
+  border-radius: 15px;
+  padding: 9px;
+  color: white;
+}
+
+/* 
+.form-child{
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin: 15px;   
+}
+
+
+} */
